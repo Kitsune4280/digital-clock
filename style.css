@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url('fonts/digital-7.ttf');
+    font-style: normal;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'digital-7', sans-serif;
+    color: green;
+    font-size: 5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    width: 50vw;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 76px;
+    margin: 2px;
+    text-align: center;
+}
+
+.divider{
+    width: 30px;
+    text-align: center;
+}
+
